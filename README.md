@@ -7,6 +7,11 @@ OpnUC Click2Call Chrome 拡張機能
 - 電話番号と判断するための正規表現や置換パターン、URLスキームの設定が出来ます。
     - 設定値はChromeのデータ同期の対象となります。
 
+## インストール
+
+- Chrome ウェブストアからインストールしてください。
+    - https://chrome.google.com/webstore/detail/abdoidfbpbpmceepkdjlgjajkgjeejma
+
 ## 謝辞
 
 - 拡張機能のアイコンとして、Icon-Rainbowさんのアイコンを利用させていただきました。
