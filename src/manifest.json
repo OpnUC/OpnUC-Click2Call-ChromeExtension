@@ -1,7 +1,7 @@
 {
   "name": "OpnUC Click2Call Chrome 機能拡張",
   "description": "Webページ上の電話番号と思われる文字列を、 tel:// 形式のリンクに変換する機能拡張です。",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "content_scripts": [{
     "matches": [ "http://*/*", "https://*/*" ],

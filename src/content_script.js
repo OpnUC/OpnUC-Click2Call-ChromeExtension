@@ -49,6 +49,11 @@ function getNodes(node) {
 			textNodes.push(childNode);
 		} else {
 			for (var i = 0; i < childNode.childNodes.length; i++) {
+				// noscript内は置換しない
+				if(childNode.tagName === 'NOSCRIPT'){
+					continue;
+				}
+
 				queue.push(childNode.childNodes[i]);
 			}
 		}
